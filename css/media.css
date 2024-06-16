@@ -1,0 +1,110 @@
+@media screen and (max-width: 767px) {
+    header {        
+        align-items: center;
+        flex-direction: column;
+        height: 10px;
+    }
+
+    .title {
+        align-self: flex-start;
+    }    
+
+    ul {
+        text-align: center;
+    }
+
+    li {
+        display: block;
+        margin: 10px;
+    }
+
+    #inscreva-se-btn {
+        display: inline-block;
+        border: 2px solid rgb(132, 14, 201);
+        padding: 5px 10px;
+    }
+    
+    #inscreva-se-btn:hover {
+        background-color: rgb(132, 14, 201);
+        color: white;
+    }
+
+    main {
+        margin-top: 300px;
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    form {
+        margin: auto;
+        width: 100%;
+    }
+
+    form [type="submit"] {
+        width: 30%;
+    }
+
+    input {
+        align-self: center;
+        width: 70%;
+    }
+
+    article {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        margin-top: 60px;
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    .title {
+        align-self: flex-start;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    form {
+        margin: auto;
+        width: 100%;
+    }
+
+    form [type="submit"] {
+        width: 20%;
+    }
+
+    input {
+        align-self: center;
+        width: 50%;
+    }
+
+    article {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        margin-top: 60px;
+        width: 320px;
+    }    
+}
